@@ -19,4 +19,6 @@ public class SinkSender {
   public MessageSource<String> timerMessageSource(){
     return () -> new GenericMessage<>("{\"name\":\"Java\",\"count\":50}");
   }
+
+
 }
